@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Personal Portfolio</title>
+  </head>
+
+  <body>
+
+    <!-- ========= NAVIGATION CONTENT ========= -->
+    <nav>
+      <div class="nav__content">
+        <div class="logo">
+          <a href="#">
+            <section class="wrapper">
+              <div class="top">Jardine.</div>
+              <div class="bottom" aria-hidden="true">Jardine.</div>
+            </section>
+          </a>
+        </div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home" class="active">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ========= HOME SECTION ========= -->
+    <section id="home" class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Jardine<br /></span>  <i class="title-int">Frontend Developer</i>
+          </h1>
+          <p class="description">
+            I'm a web designer, developer based in Philippine, Tacloban City. I have a passion for web design and love to create for web.
+          </p>
+        </div>
+        <div class="image">
+          <img src="./Images/JardineNickTie.png" alt="profile" />
+        </div>
+      </div>
+    </section>
+    
+    <!-- ========= PROJECTS SECTION ========= -->
+    <!-- 4 Developer Portfolio Projects to Get Hired -->
+    <!-- https://www.youtube.com/watch?v=LTNiNbuqcx4 -->
+    <section id="projects" class="section">
+      <h2>These are some of my projects</h2>
+      <!--Container to hold the projects-->
+      <div id="project-grid">
+          <a href="./Projects/Survey Form/index.html" target="_blank" class="project-tile">
+              <img class="project-image" src="./Images/Survey Form.PNG" alt="">
+              <p>
+                  <span class="code"><</span>
+                  Survey Form
+                  <span class="code">/></span>
+              </p>
+          </a>
+          <a href="./Projects/Tribute Page/index.html" target="_blank" class="project-tile">
+              <img class="project-image" src="./Images/BroEli.PNG" alt="">
+              <p>
+                  <span class="code"><</span>
+                  Tribute Page
+                  <span class="code">/></span>
+              </p>
+          </a>
+          <a href="./Projects/Product Landing Page/index.html" target="_blank" class="project-tile">
+              <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+              <p>
+                  <span class="code"><</span>
+                  Product Landing Page
+                  <span class="code">/></span>
+              </p>
+          </a>
+          <a href="#" class="project-tile">
+              <img class="project-image" target="_blank" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+              <p>
+                  <span class="code"><</span>
+                  ????????????????????
+                  <span class="code">/></span>
+              </p>
+          </a>
+          <a href="#" class="project-tile">
+              <img class="project-image" target="_blank" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+              <p>
+                  <span class="code"><</span>
+                  ????????????????????
+                  <span class="code">/></span>
+              </p>
+          </a>
+          <a href="#" class="project-tile">
+              <img class="project-image" target="_blank" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
+              <p>
+                  <span class="code"><</span>
+                  ????????????????????
+                  <span class="code">/></span>
+              </p>
+          </a>
+      </div>
+      <a id="show-all" href="#">Show All</a>
+    </section>
+    <!-- ========= PROFILE CONTACTS ========= -->
+    <section id="contacts">
+      <h1>Let's work together...</h1>
+      <p>How do you take your coffee?</p>
+      <ul>
+          <li><a href="#" target="_blank" class="contact-link">Facebook</a></li>
+          <li><a href="#" target="_blank" id="profile-link" class="contact-link">GitHub</a></li>
+          <li><a href="#" target="_blank" class="contact-link">Twitter</a></li>
+          <li><a href="#" target="_blank" class="contact-link">Send a mail</a></li>
+          <li><a href="#" target="_blank" class="contact-link">Call me</a></li>
+      </ul>
+    </section>
+    <!-- ========= FOOTER ========= -->
+    <footer>
+      <p>
+          **This is just a fake portfolio. All the projects and contact details given are not real.
+      </p>
+      <p>Created for <a href="#" target="_blank">freeCodeCamp</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
+
+</html>
